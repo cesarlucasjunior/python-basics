@@ -7,7 +7,6 @@ n = "abc"
 print(n) 
 
 # multiple assignments
-
 n,m,z = 0.125, "abc", False
 print(n, '|', m, '|', z)
 
