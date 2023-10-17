@@ -1,6 +1,9 @@
 # hashset are data structures that no allow duplicate items. 
 # his search and insert values in constant time.
 
+# como só podemos ter um valor, nunca repetido, esse valor é como uma chave para as operações
+# do hashset.
+
 myset = set()
 myset.add(1)
 myset.add(2)
