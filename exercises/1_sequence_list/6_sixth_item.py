@@ -1,0 +1,1 @@
+# Faça um algoritmo que solicite ao usuário dois números e exiba o resultado da soma dos números lidos.

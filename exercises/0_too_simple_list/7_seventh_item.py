@@ -1,0 +1,1 @@
+# Faça um programa que peça o lado de uma quadrando e calcule sua área e o dobro dessa área calculada.

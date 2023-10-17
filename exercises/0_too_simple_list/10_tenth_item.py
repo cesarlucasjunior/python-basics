@@ -1,0 +1,1 @@
+# Faça um programa que solicite a temperatura em graus Celsius. Com o dado, transforme e mostre em Farenheit.

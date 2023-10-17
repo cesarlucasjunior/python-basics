@@ -19,3 +19,13 @@ print(messy_list)
 #custom sort
 messy_list.sort(key=lambda x: len(x))
 print(messy_list)
+
+#list comprehension: another way to initializa a list
+arr = [i for i in range(5)]
+print(arr)
+arr = [i*i for i in range(5)]
+print(arr)
+
+#2-d list
+arr2d = [[0]*4 for i in range(4)]
+print(arr2d)

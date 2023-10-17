@@ -1,0 +1,1 @@
+# Faça um programa que peça as quatro notas bimestrais e mostre a média.
