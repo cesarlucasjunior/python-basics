@@ -1,4 +1,4 @@
-# queues in python are double ended. That means that we can chance de start and finish queue.
+# queues in python are double ended. That means that we can change de start and finish queue.
 # this allow us to perform i/o operations in constant time.
 
 from collections import deque
@@ -22,3 +22,8 @@ print(queue)
 # deleting from the end
 queue.pop()
 print(queue)
+
+queue.append(2)
+
+for i in queue:
+    print(i)
