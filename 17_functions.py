@@ -34,4 +34,7 @@ def double(arr, val):
     helper()
     print(arr, val)
 
+    # arr is an object and we are modifying his values, but 
+    # in val we're trying to reassing it
+
 double([1,2], 3)
