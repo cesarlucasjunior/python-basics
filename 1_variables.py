@@ -10,3 +10,6 @@ print(n)
 n,m,z = 0.125, "abc", False
 print(n, '|', m, '|', z)
 
+x, y, z = 3, 'abc', True
+print(x, '|', y, '|', z)
+
