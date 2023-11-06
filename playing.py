@@ -6,18 +6,21 @@
 # Imprima o tamanho do array.
 # Imprima os dois últimos elementos do array.
 
-array = [0, 0.9, "Paula", True]
+lista = [3, 3.33, 'Ana', True]
 
-array.append(False)
-print(array) #O(1)
+lista.append(False)
+print(f'Lista com novo item - {lista}') #O(1)
 
-array.pop()
-print(array) #O(1)
+lista.pop()
+print(f'Lista com item removido - {lista}') #O(1)
 
-#stack
+lista.insert(3, False)
+print(lista) #O(n)
 
-array.insert(3, False)
-print(array) #O(n)
+lista[3] = True
+print(lista) #O(1)
+lista[3] = False
 
-array[3] = True
-print(array) #O(1)
+print(f'O tamanho do array é de {len(lista)} elementos')
+print(f'O penúltimo elemento do array é {lista[-2]}')
+print(f'O último elemento do array é {lista[-1]}')
