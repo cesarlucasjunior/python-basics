@@ -1,9 +1,11 @@
 # Cria uma lista com list comprehension:
-lista = [i for i in range(1, 10)]
+lista = [i for i in range(10)]
 print(lista)
 
-outra_lista = [lista + 1 for lista in range(1,10)]
-print(outra_lista)
+lista2 = [i*2 for i in range(10)]
+print(lista2)
 
-list_2d = [[i]*i for i in range(1,10)]
-print(list_2d)
+
+# Crie uma lista com duas dimensões usando list comprehension:
+lista2d = [[i]*3 for i in range(1,10)]
+print(lista2d)

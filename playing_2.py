@@ -2,25 +2,22 @@
 # Crie uma sublista de lista com os 5 primeiros elementos
 # Para cada elemento do array, jogue para uma variável
 
-lista = [i for i in range(1,11)] #list comprehension
-print(f'Lista criada - {lista}')
+lista = [i for i in range(1, 11)] #list comprehension
+print(lista)
 
 sublista = lista[:5] #slicing
-print(f'Sublista - {sublista}')
+print(sublista)
 
 a, b, c, d, e = sublista #unpacking
 print(f'A - {a}, B - {b}, C - {c}, D - {d}, E - {e}')
 
-
-# Percorra cada elemento da lista
+# Percorra cada elemento da lista - com elemento, com índice, com índice e elemento
 
 for elemento in lista:
-    print(f'Elemento - {elemento}')
+    print(f'{elemento}')
 
 for indice in range(len(lista)):
-    print(f'Índice {indice} - {lista[indice]}')
+    print(f'{lista[indice]}')
 
 for indice, elemento in enumerate(lista):
     print(f'{indice} - {elemento}')
-
-
