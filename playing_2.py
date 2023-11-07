@@ -2,7 +2,7 @@
 # Crie uma sublista de lista com os 5 primeiros elementos
 # Para cada elemento do array, jogue para uma variável
 
-lista = [i for i in range(1,11)]
+lista = [i for i in range(1,11)] #list comprehension
 print(f'Lista criada - {lista}')
 
 sublista = lista[:5] #slicing

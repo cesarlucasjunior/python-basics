@@ -27,5 +27,5 @@ arr = [i*i for i in range(5)]
 print(arr)
 
 #2-d list
-arr2d = [[0]*4 for i in range(4)]
+arr2d = [[i]*4 for i in range(4)]
 print(arr2d)
